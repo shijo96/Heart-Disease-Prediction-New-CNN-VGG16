@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/baseline_desktop_mac_24"
+        android:title="Home" />
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/baseline_desktop_mac_24"
+        android:title="Profile" />
+    <item
+        android:id="@+id/nav_doctors"
+        android:icon="@drawable/baseline_desktop_mac_24"
+        android:title="Doctors" />
+    <item
+        android:id="@+id/nav_bookings"
+        android:icon="@drawable/baseline_desktop_mac_24"
+        android:title="Bookings" />
+    <item
+        android:id="@+id/nav_disease_prediction"
+        android:icon="@drawable/baseline_desktop_mac_24"
+        android:title="Disease Prediction" />
+    <item
+        android:id="@+id/nav_history"
+        android:icon="@drawable/baseline_desktop_mac_24"
+        android:title="View History" />
+
+    <item
+        android:id="@+id/nav_complaints"
+        android:icon="@drawable/baseline_desktop_mac_24"
+        android:title="Complaints" />
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/baseline_desktop_mac_24"
+        android:title="Logout" />
+
+
+    <!-- Add more items as needed -->
+
+</menu>

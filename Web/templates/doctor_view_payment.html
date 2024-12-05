@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Status</title>
+</head>
+<body>
+
+    <!-- Card View for Consulting Time Details -->
+    <h2>Payment Status</h2>
+
+    {% if data['view_payments'] %}
+
+    {% for row in data['view_payments'] %}
+
+    <!-- Each div with class 'card' represents a consulting time detail in card format -->
+    <div class="card">
+        <p><strong>Date:</strong> {{ row['date_time'] }}</p>
+        <p><strong>Status:</strong> {{ row['status'] }}</p>
+       
+    </div>
+
+    {% endfor %}
+
+    {% else %}
+
+    <h1>No Data</h1>
+
+    {% endif %}
+
+</body>
+</html>

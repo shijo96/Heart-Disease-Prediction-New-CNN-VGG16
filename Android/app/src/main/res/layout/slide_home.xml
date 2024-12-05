@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ippp"
+    android:gravity="center" >
+
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_marginTop="470dp"
+        android:hint="IP Address"
+        android:layout_width="300dp"
+        android:textColor="#FFFFFF"
+        android:paddingLeft="7dp"
+        android:textColorHint="#716E6E"
+        android:background="@drawable/received"
+        android:layout_height="50dp" >
+
+        <requestFocus />
+    </EditText>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonNext"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="#fff"
+        android:background="@drawable/register_bt"
+        android:text="Save Ip"
+        android:textStyle="bold" />
+
+</LinearLayout>

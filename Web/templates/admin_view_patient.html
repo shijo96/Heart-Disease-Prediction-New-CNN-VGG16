@@ -1,0 +1,88 @@
+{% include "admin_header.html" %}
+
+<!-- Content Section -->
+<div class="container my-5">
+    <h2 class="text-center mb-4">View Patients</h2>
+
+    {% for row in data['view_user'] %}
+    <!-- Patient Details Card for Multiple Patients -->
+    <div class="card shadow-sm mb-3" id="patientCard{{ loop.index }}">
+        <div class="card-body">
+            <h5 class="card-title">Patient Information</h5>
+            <div class="row">
+                <div class="col-md-6">
+                    <p><strong>First Name:</strong> {{ row['first_name'] }}</p>
+                    <p><strong>Last Name:</strong> {{ row['last_name'] }}</p>
+                    <p><strong>House Name:</strong> {{ row['house_name'] }}</p>
+                </div>
+                <div class="col-md-6">
+                    <p><strong>Place:</strong> {{ row['place'] }}</p>
+                    <p><strong>Phone:</strong> {{ row['phone'] }}</p>
+                    <p><strong>Email:</strong> {{ row['email'] }}</p>
+                </div>
+            </div>
+            <div class="text-right">
+                <button class="btn btn-primary" 
+                        data-toggle="modal" 
+                        data-target="#viewMoreModal" 
+                        data-first-name="{{ row['first_name'] }}"
+                        data-last-name="{{ row['last_name'] }}"
+                        data-house-name="{{ row['house_name'] }}"
+                        data-place="{{ row['place'] }}"
+                        data-phone="{{ row['phone'] }}"
+                        data-email="{{ row['email'] }}"
+                        data-address="{{ row['house_name'] }}, {{ row['place'] }}" 
+                        data-emergency-contact="{{ row['phone'] }}">
+                    View More
+                </button>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+
+    <!-- Add more patient cards as needed -->
+</div>
+
+<!-- View More Modal -->
+<div class="modal fade" id="viewMoreModal" tabindex="-1" role="dialog" aria-labelledby="viewMoreModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="viewMoreModalLabel">More Information</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Full Address:</strong> <span id="modalAddress"></span></p>
+                <p><strong>Emergency Contact:</strong> <span id="modalEmergencyContact"></span></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% include "admin_footer.html" %}
+
+<script>
+    // Use jQuery to handle the modal population
+    $('#viewMoreModal').on('show.bs.modal', function (event) {
+        var button = $(event.relatedTarget); // Button that triggered the modal
+        var firstName = button.data('first-name'); // Extract info from data-* attributes
+        var lastName = button.data('last-name');
+        var houseName = button.data('house-name');
+        var place = button.data('place');
+        var phone = button.data('phone');
+        var email = button.data('email');
+        var address = button.data('address');
+        var emergencyContact = button.data('emergency-contact');
+
+        // Update the modal's content
+        var modal = $(this);
+        modal.find('.modal-title').text('More Information - ' + firstName + ' ' + lastName);
+        modal.find('#modalAddress').text(address);
+        modal.find('#modalEmergencyContact').text(emergencyContact);
+    });
+</script>

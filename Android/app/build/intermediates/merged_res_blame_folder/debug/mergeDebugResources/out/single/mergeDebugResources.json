@@ -1,0 +1,438 @@
+[
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_d2.png.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/d2.png"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_a2.png.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/a2.png"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_input_fld.xml.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/input_fld.xml"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_send_message.xml.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/send_message.xml"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/layout_activity_user_view_history.xml.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/layout/activity_user_view_history.xml"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/layout_activity_user_view_doctor_schedule.xml.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/layout/activity_user_view_doctor_schedule.xml"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_a9.png.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/a9.png"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_baseline_desktop_mac_24.xml.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/baseline_desktop_mac_24.xml"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_aaa.png.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/aaa.png"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_border_shine.xml.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/border_shine.xml"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/layout_activity_user_add_review.xml.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/layout/activity_user_add_review.xml"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_edit.xml.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/edit.xml"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_c12.png.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/c12.png"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/layout_activity_user_view_doctors.xml.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/layout/activity_user_view_doctors.xml"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_receive_message.xml.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/receive_message.xml"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_a1.png.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/a1.png"
+    },
+    {
+        "merged": "com.example.heart.app-debug-38:/layout_slide_home.xml.flat",
+        "source": "com.example.heart.app-main-40:/layout/slide_home.xml"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_a8.png.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/a8.png"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/layout_item_chat_message.xml.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/layout/item_chat_message.xml"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_cont1.png.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/cont1.png"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_edit2.xml.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/edit2.xml"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_register_bt.xml.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/register_bt.xml"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_button.xml.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/button.xml"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_received.xml.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/received.xml"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/layout_activity_user_send_complaints.xml.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/layout/activity_user_send_complaints.xml"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_c11.png.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/c11.png"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_cont.png.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/cont.png"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_send_btn.xml.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/send_btn.xml"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_gradient.xml.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/gradient.xml"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_c10.png.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/c10.png"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/layout_custom_bookings.xml.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/layout/custom_bookings.xml"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/layout_nav_header.xml.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/layout/nav_header.xml"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_a10.png.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/a10.png"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/layout_item_complaint.xml.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/layout/item_complaint.xml"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_lgp.png.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/lgp.png"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/layout_activity_user_payment.xml.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/layout/activity_user_payment.xml"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_b1.png.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/b1.png"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/layout_no_data_layout.xml.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/layout/no_data_layout.xml"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_c6.png.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/c6.png"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/layout_slide_registration.xml.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/layout/slide_registration.xml"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_border_shape.xml.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/border_shape.xml"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/layout_custom_schedule.xml.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/layout/custom_schedule.xml"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_right.png.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/right.png"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_e.png.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/e.png"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_a3.png.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/a3.png"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_logo.png.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/logo.png"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_d1.png.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/d1.png"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_baseline_camera_enhance_24.xml.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/baseline_camera_enhance_24.xml"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_c9.png.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/c9.png"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/layout_activity_user_disease_prediction.xml.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/layout/activity_user_disease_prediction.xml"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_rr.png.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/rr.png"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_b.png.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/b.png"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_border2.xml.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/border2.xml"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_c13.png.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/c13.png"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/xml_backup_rules.xml.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_py.gif.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/py.gif"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/layout_activity_user_view_bookings.xml.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/layout/activity_user_view_bookings.xml"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_a6.png.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/a6.png"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_c8.png.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/c8.png"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_hm.png.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/hm.png"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_pay.png.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/pay.png"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_baseline_person_24.xml.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/baseline_person_24.xml"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_ho_shine.xml.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/ho_shine.xml"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_a5.png.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/a5.png"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/layout_custom_history.xml.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/layout/custom_history.xml"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_c15.png.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/c15.png"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_nn.png.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/nn.png"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/layout_activity_user_chat.xml.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/layout/activity_user_chat.xml"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/layout_activity_user_book_doctor.xml.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/layout/activity_user_book_doctor.xml"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_rd.png.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/rd.png"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/layout_custom_doctors.xml.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/layout/custom_doctors.xml"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_c7.png.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/c7.png"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_star.xml.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/star.xml"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_c.png.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/c.png"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/layout_activity_main.xml.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_send_mssg.xml.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/send_mssg.xml"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_a4.png.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/a4.png"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_ippp.png.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/ippp.png"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_rounded_background.xml.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/rounded_background.xml"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_baseline_send_24.xml.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/baseline_send_24.xml"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_d.png.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/d.png"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/layout_activity_user_profile.xml.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/layout/activity_user_profile.xml"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_rounded_button_background.xml.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/rounded_button_background.xml"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_c14.png.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/c14.png"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_dt.png.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/dt.png"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/menu_drawer_menu.xml.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/menu/drawer_menu.xml"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_a7.png.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/a7.png"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_a.png.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/a.png"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/layout_slide_home.xml.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/layout/slide_home.xml"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_nodata.png.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/nodata.png"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_b2.png.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/b2.png"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/layout_slide_login.xml.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/layout/slide_login.xml"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/drawable_c5.png.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/drawable/c5.png"
+    },
+    {
+        "merged": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-debug-38:/layout_activity_user_home.xml.flat",
+        "source": "/Users/shijojohn/.gradle/daemon/8.9/com.example.heart.app-main-40:/layout/activity_user_home.xml"
+    }
+]

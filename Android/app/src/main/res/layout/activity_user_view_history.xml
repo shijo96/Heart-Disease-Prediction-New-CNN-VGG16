@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/c15"
+    tools:context=".User_view_history">
+
+    <TextView
+        android:id="@+id/headerTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EDBFBF"
+        android:elevation="4dp"
+        android:padding="16dp"
+        android:text="History"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+<!--    &lt;!&ndash; Spinner for filter options &ndash;&gt;-->
+<!--    <Spinner-->
+<!--        android:id="@+id/filterSpinner"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="10dp" />-->
+
+    <ListView
+        android:id="@+id/vdoctors"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:layout_margin="10dp"
+        android:dividerHeight="6dp" />
+</LinearLayout>
+
+
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--    xmlns:tools="http://schemas.android.com/tools"-->
+    <!--    android:id="@+id/main"-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="match_parent"-->
+    <!--    android:orientation="vertical"-->
+    <!--    android:background="@drawable/c15"-->
+    <!--    tools:context=".User_view_doctors">-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/headerTitle"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:background="#EDBFBF"-->
+    <!--        android:elevation="4dp"-->
+    <!--        android:padding="16dp"-->
+    <!--        android:text="Doctors"-->
+    <!--        android:textColor="#000000"-->
+    <!--        android:textSize="24sp"-->
+    <!--        android:textStyle="bold" />-->
+
+
+    <!--    <ListView-->
+    <!--        android:id="@+id/vdoctors"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:divider="@null"-->
+    <!--        android:layout_margin="10dp"-->
+    <!--        android:dividerHeight="6dp"/>-->
+
+    <!--</LinearLayout>-->

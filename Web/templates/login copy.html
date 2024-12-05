@@ -1,0 +1,60 @@
+{% include "public_header.html" %}
+
+
+    <div class="form-body">
+        <div class="iofrm-layout">
+            <div class="img-holder">
+                <div class="bg"></div>
+                <div class="info-holder">
+                    <h3>Take control of your health with the HeartCare platform.</h3>
+                    <p>Access the most advanced tools for accurate and early heart disease prediction, empowering you to make informed decisions about your well-being.</p>
+                    <!-- <img src="/static/login/images/graphic5.svg" alt=""> -->
+                    <img src="/static/logo.png" alt="">
+                    
+                </div>
+            </div>
+            <div class="form-holder">
+                <div class="form-content">
+                    <div class="form-items">
+                        <div class="website-logo-inside">
+                            <a href="/">
+                                <div class="logo">
+                                    <img class="logo-size" src="/static/login/images/logo-light.svg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="page-links">
+                            <a href="/login" class="active">Login</a><a href="/reg">Register</a>
+                        </div>
+                        <!-- <form>
+                            <input class="form-control" type="text" name="username" placeholder="E-mail Address" required="">
+                            <input class="form-control" type="password" name="password" placeholder="Password" required="">
+                            <div class="form-button">
+                                <button id="submit" type="submit" class="ibtn">Login</button> <a href="forget9.html">Forget password?</a>
+                            </div>
+                        </form> -->
+
+                        <form action="#" method="post">
+                          
+                           
+                            <!-- <span>or use your account</span> -->
+                            <input type="text" placeholder="Email" name="uname"  />
+                            <input type="password" placeholder="Password" name="passs"  />
+                            <!-- <a href="#">Forgot your password?</a> -->
+                            
+                            <div class="form-button">
+                                <button id="submit" type="submit" name="submit" class="ibtn">Login</button> <a href="#">Forget password?</a>
+                            </div>
+                        </form>
+
+                        <!-- <div class="other-links">
+                            <span>Or login with</span><a href="#">Facebook</a><a href="#">Google</a><a href="#">Linkedin</a>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    {% include "public_footer.html" %}

@@ -1,0 +1,8 @@
+<!-- res/drawable/border_shine_animation.xml -->
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false">
+    <item android:drawable="@drawable/border_shape" android:duration="200" />
+    <item android:drawable="@drawable/border2" android:duration="200" />
+    <item android:drawable="@drawable/border_shape" android:duration="200" />
+    <item android:drawable="@drawable/border2" android:duration="200" />
+    <!-- Add more items as needed for the desired animation -->
+</animation-list>

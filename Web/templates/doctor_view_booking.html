@@ -1,0 +1,146 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Details</title>
+</head>
+<body>
+
+    <h2>Booking Details</h2>
+
+    {% for row in data['booking'] %}
+
+    <div class="card">
+        <p><strong>Patient Name:</strong> {{ row['first_name'] }} {{ row['last_name'] }}</p>
+        <p><strong>Place:</strong> {{ row['place'] }}</p>
+        <p><strong>Day:</strong> {{ row['day'] }}</p>
+        <p><strong>Date:</strong> {{ row['bk_date'] }}</p>
+        <p><strong>Booking Date:</strong> {{ row['book_date'] }}</p>
+        <p><strong>Status:</strong> {{ row['status'] }}</p>
+        {% if row['status']=="Booked" %}
+            <a href="?action=accept&bid={{ row['booking_id'] }}">Accept</a>
+            <a href="?action=reject&bid={{ row['booking_id'] }}">Reject</a>
+        {% elif row['status']=="Confirmed" %}
+            <a href="doctor_view_patient_details?pid={{ row['user_id'] }}">Patient Details</a>
+            <a href="doctor_view_medical_history?pid={{ row['user_id'] }}">Medical History</a>
+            <a href="doctor_chat_patient?ulog_id={{ row['ulog_id'] }}">Chat</a>
+            
+            
+        {% endif %}
+        <a href="doctor_view_payment?bid={{ row['booking_id'] }}">View Payment</a>
+    </div>
+
+    {% endfor %}
+
+</body>
+</html> -->
+
+
+
+
+{% include "doctor_header.html" %}
+
+<!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper">
+        <div class="container-full">
+            <!-- Main content -->
+            <section class="content">			
+                <div class="row">
+                  		
+                   			
+                 
+                    <div class="col-xxl-12 col-12" >
+                        <div class="box" style="height: 800px;">
+                            <div class="box-header">
+                                <h4 class="box-title">Appointments</h4>
+                            </div>
+                            <!-- <div class="box-body">
+                                <div id="paginator1"></div>
+                            </div> -->
+                            <div class="box-body" >
+                                <div class="" >
+
+                                    {% for row in data['booking'] %}
+
+                                    <div>
+                                        <div class="d-flex align-items-center mb-10">
+                                            <div class="me-15">
+                                                <img src="/static/doctor/images/4.jpg" class="avatar avatar-lg rounded10 bg-primary-light" alt="">
+                                            </div>
+                                            <div class="d-flex flex-column flex-grow-1 fw-500">
+                                                <span class="text-dark fs-16">Name : {{ row['first_name'] }} {{ row['last_name'] }}</span>
+
+                                                <!-- <p><strong>Patient Name:</strong> {{ row['first_name'] }} {{ row['last_name'] }}</p> -->
+                                                <p class="hover-primary text-fade mb-1 fs-14"><strong>Place:</strong> {{ row['place'] }}</p>
+                                                <p class="hover-primary text-fade mb-1 fs-14"><strong>Day:</strong> {{ row['day'] }}</p>
+                                                <p class="hover-primary text-fade mb-1 fs-14"><strong>Date:</strong> {{ row['bk_date'] }}</p>
+                                                <p class="hover-primary text-fade mb-1 fs-14"><strong>Booking Date:</strong> {{ row['book_date'] }}</p>
+                                                <p class="hover-primary text-fade mb-1 fs-14"><strong>Status:</strong> {{ row['status'] }}</p>
+                                                {% if row['status']=="Booked" %}
+                                                <table>
+                                                    <tr>
+                                                        <th>
+                                                            <a href="?action=accept&bid={{ row['booking_id'] }}" class="btn btn-success btn-sm">Accept</a>
+                                                            <a href="?action=reject&bid={{ row['booking_id'] }}" class="btn btn-danger btn-sm">Reject</a>
+                                                        </th>
+                                                    </tr>
+                                                </table>
+                                                    
+                                                {% elif row['status']=="Confirmed" %}
+                                                <table>
+                                                    <tr>
+                                                        <th>
+                                                            <a href="doctor_view_patient_details?pid={{ row['user_id'] }}" class="btn btn-primary btn-sm">Patient Details</a>
+                                                            <a href="doctor_view_medical_history?pid={{ row['user_id'] }}" class="btn btn-warning btn-sm">Medical History</a>
+                                                            <a href="doctor_chat_patient?ulog_id={{ row['ulog_id'] }}" class="btn btn-info btn-sm">Chat</a>
+                                                        </th>
+                                                    </tr>
+                                                </table>
+                                                   
+                                                {% endif %}
+                                                    
+                                               
+
+                                            </div>
+                                            <!-- <div>
+                                                <a href="#" class="waves-effect waves-circle btn btn-circle btn-primary-light btn-sm"><i class="fa fa-phone"></i></a>
+                                            </div> -->
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-end mb-15 py-10 bb-dashed border-bottom">
+                                            <!-- <div>
+                                                <p class="mb-0 text-muted"><i class="fa fa-clock-o me-5"></i> 10:00 <span class="mx-20">$ 30</span></p>
+                                            </div> -->
+                                            <!-- <div>
+                                                <div class="dropdown">
+                                                    <a data-bs-toggle="dropdown" href="#" class="base-font mx-10"><i class="ti-more-alt text-muted"></i></a>
+                                                    <div class="dropdown-menu dropdown-menu-end">
+                                                      <a class="dropdown-item" href="#"><i class="ti-import"></i> Import</a>
+                                                      <a class="dropdown-item" href="#"><i class="ti-export"></i> Export</a>
+                                                      <a class="dropdown-item" href="#"><i class="ti-printer"></i> Print</a>
+                                                      <div class="dropdown-divider"></div>
+                                                      <a class="dropdown-item" href="#"><i class="ti-settings"></i> Settings</a>
+                                                    </div>
+                                                </div>
+                                            </div> -->
+                                        </div>
+                                    </div>
+                                    {% endfor %}
+                                   
+                                  
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              
+              <!-- /.row -->
+            </section>
+            <!-- /.content -->
+        </div>
+    </div>
+<!-- /.content-wrapper -->
+
+
+{% include "doctor_footer.html" %}

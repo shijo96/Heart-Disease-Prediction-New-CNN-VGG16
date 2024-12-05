@@ -1,0 +1,41 @@
+{% include "admin_header.html" %}
+
+<!-- Content Section -->
+<div class="container my-5">
+    <h2 class="text-center mb-4">Train Dataset</h2>
+
+    <!-- File Upload Form -->
+    <div class="card p-4 mb-5 shadow-sm">
+        <h4 class="card-title text-center">Upload Dataset Folder</h4>
+        <form id="uploadForm" method="post" enctype="multipart/form-data" action="{{ url_for('admin.admin_train_dataset') }}">
+            <div class="form-group">
+                <label for="datasetFolder">Choose Dataset Folder</label>
+                <input type="file" class="form-control-file" id="datasetFolder" name="datasetFolder" webkitdirectory required>
+                <br>
+                <label for="datasetFolder">No. of Epochs</label>
+                <input type="number"  min="1" class="form-control-file" id="datasetFolder" name="epo"  required>
+            </div>
+            <input type="submit" name="upload_data" class="btn btn-primary btn-block" value="Upload and Train">
+        </form>
+    </div>
+
+    <!-- Result View -->
+    {% if result %}
+    <div class="alert alert-info">
+        <strong>Status:</strong> {{ result.message }}<br>
+        <strong>Model Accuracy:</strong> {{ result.model_accuracy }}<br>
+        <strong>Training Time:</strong> {{ result.training_time }}<br>
+        <strong>Uploaded Folder:</strong> {{ result.folder_name }}<br>
+        <strong>Total Uploaded Files:</strong> {{ result.total_uploaded_files }}<br>
+        <strong>Subfolder Counts:</strong>
+        <ul>
+            {% for subfolder, count in result.subfolder_counts.items() %}
+                <li>{{ subfolder }}: {{ count }} files</li>
+            {% endfor %}
+        </ul>
+    </div>
+{% endif %}
+
+</div>
+
+{% include "admin_footer.html" %}

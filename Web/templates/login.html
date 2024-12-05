@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            /*background-color: #e0f7fa; /* Light health-related background color */
+            background-color: #fff; /* Light health-related background color */
+        }
+        .header {
+            background-color: #0e1233; /* Darker green header */
+            color: white;
+            padding: 10px 0;
+        }
+        .footer {
+            background-color: #0e1233; /* Darker green footer */
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .logo {
+            width: 40px; /* Adjust logo size */
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header -->
+<header class="header">
+    <div class="container d-flex justify-content-between align-items-center">
+        <div>
+            <img src="/static/logo.png" alt="Logo" class="logo" > Heart diseases
+        </div>
+        <nav>
+            <a href="#" class="text-white mx-3">Home</a>
+            <a href="#" class="text-white mx-3">About</a>
+            <a href="#" class="text-white mx-3">Services</a>
+            <a href="#" class="text-white mx-3">Contact</a>
+        </nav>
+    </div>
+</header>
+
+<div class="container-fluid d-flex align-items-center justify-content-center" style="min-height: calc(100vh - 60px);">
+    <div class="row w-100">
+        <div class="col-md-6 d-flex align-items-center justify-content-center">
+            <div class="card p-4" style="width: 100%; max-width: 400px;">
+                <h3 class="text-center mb-4">Login</h3>
+                <form method="post">
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input type="text" class="form-control" id="username" name="uname" placeholder="Enter username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" id="password" name="passs" placeholder="Enter password" required>
+                    </div>
+                    <input type="submit" name="submit" class="btn btn-primary btn-block" value="Login">
+                </form>
+                <p class="text-center mt-3">
+                    <a href="#">Forgot Password?</a>
+                </p>
+                <p class="text-center mt-2">
+                    Don’t have an account? <a href="#">Sign Up</a>
+                </p>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <img src="/static/2.png" alt="Health-related Image" class="img-fluid" style="height: 100%; object-fit: cover;">
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+    <p>© 2024 Your Company Name. All Rights Reserved.</p>
+</footer>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,80 @@
+{% include "doctor_header.html" %}
+
+<!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper">
+        <div class="container-full">
+            <!-- Main content -->
+            <section class="content">			
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-12">
+                        <div class="box">
+                            <div class="box-header with-border d-flex justify-content-between align-items-center">
+                              <h4 class="box-title">Manage Fees</h4>
+                              <!-- <div>
+                                  <div class="progress progress-xs w-80 mb-0 m0-10">
+                                      <div class="progress-bar bg-warning" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>					  
+                                  </div>
+                              </div> -->
+                            </div>
+                            <div class="box-body">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <!-- <div>
+                                        <h2 class="mt-0 mb-5 fw-600">240</h2>
+                                        <small>Total Flow In Every 3 hours</small>								
+                                    </div> -->
+
+                                    <form action="#" method="post">
+                                        <table class="table no-border" style="width: 500px;" >
+                                            <tr>
+                                                <th colspan="2">Manage Fees</th>
+                                            </tr>
+                                            <tr>
+                                                <td>Amount:</td>
+                                                <td><input type="text" name="amount" class="form-control" placeholder="Enter amount" required></td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2" align="center">
+                                                    <input type="submit" class="btn btn-info btn-sm" value="Submit" name="manage_fee">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </form>
+
+                                    <!-- <div><i class="fa-solid fa-hospital-user fs-40 text-danger"></i></div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>			
+                    
+                    
+
+                    <div class="col-xl-12 col-lg-12 col-12">
+                        <div class="box">
+                            <div class="box-header with-border d-flex justify-content-between align-items-center">
+                              <h4 class="box-title">Fees Details</h4>
+                             
+                            </div>
+                            <div class="box-body">
+                                <div class="d-flex justify-content-between align-items-center">
+                              
+                                    {% for row in data['fee'] %}
+                                    <div class="">
+                                        <p style="color: green;"><strong>Amount:</strong> {{ row['amount'] }} ₹</p>
+                                        <p><strong>Date:</strong> {{ row['date_time'] }}</p>
+                                    </div>
+                                    {% endfor %}
+                                  
+                                </div>
+                            </div>
+                        </div>
+                    </div>	
+                    
+              <!-- /.row -->
+            </section>
+            <!-- /.content -->
+        </div>
+    </div>
+<!-- /.content-wrapper -->
+
+
+{% include "doctor_footer.html" %}

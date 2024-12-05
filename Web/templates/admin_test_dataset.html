@@ -1,0 +1,33 @@
+{% include "admin_header.html" %}
+
+<!-- Content Section -->
+<div class="container my-5">
+    <h2 class="text-center mb-4">Test Dataset</h2>
+
+    <!-- Image Upload Form -->
+    <div class="card p-4 mb-5 shadow-sm">
+        <h4 class="card-title text-center">Upload Image</h4>
+        <form id="uploadForm" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="imageFile">Choose Image File</label>
+                <input type="file" class="form-control-file" id="imageFile" name="imageFile" accept="image/*" required>
+            </div>
+            <input type="submit" name="submit" class="btn btn-primary btn-block" value="Upload and Predict">
+        </form>
+    </div>
+
+    <!-- Result View -->
+    <div class="card p-4 shadow-sm">
+        <h4 class="card-title text-center">Prediction Result</h4>
+        <div class="text-center">
+            {% if data.image_url %}
+                <img id="resultImage" src="{{ url_for('static', filename='temp/' ~ data.image_url) }}" style="width: 300px;" alt="Uploaded Image" class="result-img mb-3">
+            {% else %}
+                <div id="resultMessage">Upload an image to view the prediction result here.</div>
+            {% endif %}
+        </div>
+        <p><strong>Predicted Result:</strong> <span id="predictedResult">{{ data.predicted_result if data.predicted_result else 'N/A' }}</span></p>
+    </div>
+</div>
+
+{% include "admin_footer.html" %}

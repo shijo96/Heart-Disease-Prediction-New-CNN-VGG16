@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor-Patient Chat</title>
+    <style>
+        body {
+            display: flex;
+            background-image: url("/static/cht.jpg");
+            flex-direction: column;
+            height: 100vh;
+            margin: 0;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 0;
+            padding: 10px;
+        }
+
+        #chat-box {
+            flex-grow: 1;
+            padding: 10px;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .message {
+            max-width: 60%;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+        }
+
+        .sender {
+            align-self: flex-end;
+            background-color: #dcf8c6;
+        }
+
+        .receiver {
+            align-self: flex-start;
+            background-color: #f1f0f0;
+        }
+
+        #chat-form {
+            display: flex;
+            padding: 10px;
+            border-top: 1px solid #ddd;
+        }
+
+        #message {
+            flex-grow: 1;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        #send-button {
+            padding: 10px 20px;
+            margin-left: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Doctor-Patient Chat</h1>
+
+    <!-- Chat Messages Display Area -->
+    <div id="chat-box">
+        {% for chat in data['chat'] %}
+            {% if chat['sender_type'] == 'Doctor' %}
+                <div class="message sender">
+                    <strong>Doctor:</strong> {{ chat['message'] }}
+                </div>
+            {% else %}
+                <div class="message receiver">
+                    <strong>Patient:</strong> {{ chat['message'] }}
+                </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+
+    <!-- Chat Input Form -->
+    <form id="chat-form" action="" method="post">
+        <input type="text" id="message" name="message" placeholder="Type your message here" required>
+        <button type="submit" name="send_chat" id="send-button">Send</button>
+    </form>
+
+</body>
+</html>

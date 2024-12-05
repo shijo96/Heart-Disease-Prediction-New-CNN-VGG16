@@ -1,0 +1,205 @@
+<!-- <html>
+ <head>
+  <title>
+   Coronary Artery Disease
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #f5f9fc;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #6c757d;
+        }
+        .nav {
+            display: flex;
+            gap: 20px;
+        }
+        .nav a {
+            text-decoration: none;
+            color: #6c757d;
+            font-size: 16px;
+        }
+        .content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 50px;
+        }
+        .text-section {
+            max-width: 50%;
+        }
+        .text-section h1 {
+            font-size: 48px;
+            color: #333;
+            margin: 0;
+        }
+        .text-section p {
+            font-size: 16px;
+            color: #6c757d;
+            margin: 20px 0;
+        }
+        .text-section .btn {
+            background-color: #ff6b6b;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .image-section {
+            max-width: 50%;
+        }
+        .image-section img {
+            width: 100%;
+        }
+  </style>
+ </head>
+ <body>
+  <div class="container">
+   <div class="logo">
+    LOGO
+   </div>
+   <div class="nav">
+    <a href="#">
+     Sign up
+    </a>
+    <a href="#">
+     Work
+    </a>
+    <a href="#">
+     Blog
+    </a>
+    <a href="#">
+     About
+    </a>
+    <a href="#">
+     Community
+    </a>
+   </div>
+  </div>
+  <div class="content">
+   <div class="text-section">
+    <h1>
+     Coronary artery disease
+    </h1>
+    <p>
+     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dam nonummy nibh euismod tincidunt ut laoreet dolore magna.
+    </p>
+    <button class="btn">
+     Get started!
+    </button>
+   </div>
+   <div class="image-section">
+    <img alt="Illustration of doctors examining a large heart with medical equipment around" height="400" src="https://storage.googleapis.com/a1aa/image/af3DM6UXzkQaHCL1zx34yqM6KSS22j6bXZkRLh3cXKEyST1JA.jpg" width="600"/>
+   </div>
+  </div>
+ </body>
+</html> -->
+{% include "admin_header.html" %}
+
+<style>
+    body {
+        margin: 0; /* Reset body margin */
+    }
+
+    #hero {
+        background-color: brown;
+        background-image: url('/static/prp.png');
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 700px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+
+    /* Flex container for the welcome section */
+    .hero-content {
+        display: flex;
+        align-items: center;
+        gap: 20px; /* Space between text and image */
+        color: #000; /* Text color */
+    }
+
+    /* Styling for welcome section text */
+    .welcome-section h1,
+    .welcome-section p {
+        color: #000;
+    }
+
+    .welcome-section img {
+        width: 200px;
+        margin-top: -100px;
+    }
+</style>
+
+<div id="hero">
+    <div class="hero-content" style="margin-top: -170px;">
+        <!-- Welcome Section Text -->
+        <div class="container welcome-section">
+            <h1 class="text-left">"Heart Health Matters: Predict, Prevent, and Protect"</h1>
+            <p class="text-left">"Early detection and prediction of heart disease <br> can save lives and improve treatment outcomes."</p>
+        </div>
+        <!-- Image positioned to the right of text -->
+        <img src="/static/logo.png" style="width: 600px;" alt="Heart Health Logo">
+    </div>
+</div>
+
+<!-- Dashboard Section -->
+<div class="container my-5">
+    <div class="row">
+        <div class="col-md-3 mb-4">
+            <div class="card text-center shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">View Doctors</h5>
+                    <p class="card-text">Manage and view doctor profiles.</p>
+                    <a href="admin_view_doctors" class="btn btn-primary">Go to Doctors</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-4">
+            <div class="card text-center shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">View Patients</h5>
+                    <p class="card-text">Manage and view patient profiles.</p>
+                    <a href="admin_view_patient" class="btn btn-primary">Go to Patients</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-4">
+            <div class="card text-center shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Complaints</h5>
+                    <p class="card-text">View and manage complaints.</p>
+                    <a href="admin_view_complaints" class="btn btn-primary">Go to Complaints</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-4">
+            <div class="card text-center shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Make Prediction</h5>
+                    <p class="card-text">Upload an image to make a prediction using the model.</p>
+                    <a href="admin_test_dataset" class="btn btn-primary">Go to Prediction</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% include "admin_footer.html" %}

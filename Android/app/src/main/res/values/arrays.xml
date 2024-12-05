@@ -1,0 +1,8 @@
+<!-- res/values/arrays.xml -->
+<resources>
+    <array name="filter_options">
+        <item>Choose Filter</item>
+        <item>Top Rated</item>
+        <item>Near by Place</item>
+    </array>
+</resources>

@@ -1,0 +1,230 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical History</title>
+</head>
+<body>
+
+    <h2>Medical History</h2>
+
+    {% if data['view_history'] %}
+
+    {% for row in data['view_history'] %}
+
+    <div class="card">
+        <p><strong>Result:</strong> {{ row['result'] }}</p>
+        <p><strong>Date:</strong> {{ row['date_time'] }}</p>
+       
+    </div>
+
+    {% endfor %}
+
+    {% else %}
+
+    <h1>No Data</h1>
+
+    {% endif %}
+
+</body>
+</html> -->
+
+
+
+
+{% include "doctor_header.html" %}
+
+<!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper">
+        <div class="container-full">
+            <!-- Main content -->
+            <section class="content">			
+                <div class="row">
+                  			
+                  			
+                   			
+                 
+                    <!-- <div class="col-xxl-4 col-lg-6 col-12">
+                        <div class="row">
+                            <div class="col-md-6 col-12">
+                                <div class="box">
+                                    <div class="box-body px-0 text-center">
+                                        <div style="min-height: 156px;">
+                                            <div id="chart124"></div>
+                                        </div>
+                                        <div class="mt-15 d-inline-block">
+                                            <div class="text-start mb-10">
+                                                <span class="badge badge-xl badge-dot badge-primary me-15"></span> Woman 44%
+                                            </div>
+                                            <div class="text-start">
+                                                <span class="badge badge-xl badge-dot badge-primary-light me-15"></span> Man 55%
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <div class="box">
+                                    <div class="box-body">
+                                        <h4>New Patients</h4>
+                                        <div class="d-flex justify-content-between align-items-baseline">
+                                            <h2 class="fs-40 my-0 fw-600 l-h-48">67</h2>
+                                            <div>
+                                                <span class="badge badge-pill badge-success-light"><i class="fa fa-angle-up me-10"></i> 39%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="box">
+                                    <div class="box-body">
+                                        <h4>Old Patients</h4>
+                                        <div class="d-flex justify-content-between align-items-baseline">
+                                            <h2 class="fs-40 my-0 fw-600 l-h-48">27</h2>
+                                            <div>
+                                                <span class="badge badge-pill badge-danger-light"><i class="fa fa-angle-down me-10"></i>04%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="box-body px-0 pb-0">
+                                <div class="px-20 bb-1 pb-15 d-flex align-items-center justify-content-between">
+                                    <h4 class="mb-0">Recent que..</h4>
+                                    <div class="d-flex align-items-center justify-content-end">
+                                        <button type="button" class="waves-effect waves-light btn btn-sm btn-primary-light">All</button>
+                                        <button type="button" class="waves-effect waves-light mx-10 btn btn-sm btn-primary">Unread</button>
+                                        <button type="button" class="waves-effect waves-light btn btn-sm btn-primary-light">New</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box-body">
+                                <div class="inner-user-div3">
+                                    <div class="d-flex justify-content-between align-items-center pb-20 mb-10 bb-dashed border-bottom">
+                                        <div class="pe-20">
+                                            <p class="fs-12 text-fade">14 Jun 2021 <span class="mx-10">/</span> 01:05PM</p>
+                                            <h4>Addiction blood bank bone marrow contagious disinfectants?</h4>												
+                                            <div class="d-flex align-items-center">
+                                                <button type="button" class="waves-effect waves-light btn me-10 btn-xs btn-primary-light">Read more</button>
+                                                <button type="button" class="waves-effect waves-light btn btn-xs btn-primary-light">Reply</button>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <a href="#" class="waves-effect waves-circle btn btn-circle btn-outline btn-light btn-lg"><i class="fa fa-comments"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-between align-items-center pb-20 bb-dashed border-bottom">
+                                        <div class="pe-20">
+                                            <p class="fs-12 text-fade">17 Jun 2021 <span class="mx-10">/</span> 02:05PM</p>
+                                            <h4>Triggered asthma anesthesia blood type bone marrow cartilage?</h4>												
+                                            <div class="d-flex align-items-center">
+                                                <button type="button" class="waves-effect waves-light btn me-10 btn-xs btn-primary-light">Read more</button>
+                                                <button type="button" class="waves-effect waves-light btn btn-xs btn-primary-light">Reply</button>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <a href="#" class="waves-effect waves-circle btn btn-circle btn-outline btn-light btn-lg"><i class="fa fa-comments"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-between align-items-center pb-20 mb-10 bb-dashed border-bottom">
+                                        <div class="pe-20">
+                                            <p class="fs-12 text-fade">14 Jun 2021 <span class="mx-10">/</span> 01:05PM</p>
+                                            <h4>Addiction blood bank bone marrow contagious disinfectants?</h4>												
+                                            <div class="d-flex align-items-center">
+                                                <button type="button" class="waves-effect waves-light btn me-10 btn-xs btn-primary-light">Read more</button>
+                                                <button type="button" class="waves-effect waves-light btn btn-xs btn-primary-light">Reply</button>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <a href="#" class="waves-effect waves-circle btn btn-circle btn-outline btn-light btn-lg"><i class="fa fa-comments"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-between align-items-center pb-20 bb-dashed border-bottom">
+                                        <div class="pe-20">
+                                            <p class="fs-12 text-fade">17 Jun 2021 <span class="mx-10">/</span> 02:05PM</p>
+                                            <h4>Triggered asthma anesthesia blood type bone marrow cartilage?</h4>												
+                                            <div class="d-flex align-items-center">
+                                                <button type="button" class="waves-effect waves-light btn me-10 btn-xs btn-primary-light">Read more</button>
+                                                <button type="button" class="waves-effect waves-light btn btn-xs btn-primary-light">Reply</button>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <a href="#" class="waves-effect waves-circle btn btn-circle btn-outline btn-light btn-lg"><i class="fa fa-comments"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>	 -->
+                    <div class="col-xxl-12 col-lg-12 col-12">					
+                        <div class="box b-0 bg-transparent no-shadow">
+                            <div class="box-body pt-5 pb-0 px-0">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <h4 class="mb-0">Medical History</h4>
+                                    <!-- <a href="#" class="">All patients <i class="ms-10 fa fa-angle-right"></i></a> -->
+                                </div>							
+                            </div>
+                        </div>			
+                        {% if data['view_history'] %}
+
+                        {% for row in data['view_history'] %}	
+                        <div class="box">
+                           
+                            <div class="box-body p-10">
+                                
+
+                                <div class="mb-10 d-flex justify-content-between align-items-center">
+                                    <div class="fw-600 min-w-120">
+                                        <!-- 10:30am -->
+                                        <img src="/{{ row['file_path'] }}" style="width: 500px;" alt="">
+                                    </div>
+
+                                    <div class="w-p100 p-10 rounded10 justify-content-between align-items-center d-flex bg-lightest">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <!-- <img src="/static/doctor/images/1.jpg" class="me-10 avatar rounded-circle" alt=""> -->
+                                            <div>
+                                                <h6 class="mb-0">{{ row['result'] }}</h6>
+                                                <p class="mb-0 fs-12 text-mute">{{ row['date_time'] }}</p>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>								
+                                </div>
+                                
+                            </div>
+                            
+                        </div>
+                        {% endfor %}
+                        {% else %}
+
+                        <div class="box">
+                           
+                            <div class="box-body p-10">
+                                
+
+                                <div class="mb-10 d-flex justify-content-between align-items-center">
+                                  
+                                    <h2 style="color: rgb(215, 4, 4);">No Data</h2>
+                                  					
+                                </div>
+                                
+                            </div>
+                            
+                        </div>
+                        
+                        {% endif %}
+                    </div>
+                    
+                </div>
+               
+              <!-- /.row -->
+            </section>
+            <!-- /.content -->
+        </div>
+    </div>
+<!-- /.content-wrapper -->
+
+
+{% include "doctor_footer.html" %}

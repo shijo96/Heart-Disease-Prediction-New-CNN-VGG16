@@ -1,0 +1,122 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Profile</title>
+</head>
+<body>
+
+    <h1>Patient Profile</h1>
+
+    <table border="1">
+        <tr>
+            <td><strong>First Name:</strong></td>
+            <td>{{ data['view_patinet'][0]['first_name'] }}</td>
+        </tr>
+        <tr>
+            <td><strong>Last Name:</strong></td>
+            <td>{{ data['view_patinet'][0]['last_name'] }}</td>
+        </tr>
+        <tr>
+            <td><strong>House Name:</strong></td>
+            <td>{{ data['view_patinet'][0]['house_name'] }}</td>
+        </tr>
+        <tr>
+            <td><strong>Place:</strong></td>
+            <td>{{ data['view_patinet'][0]['place'] }}</td>
+        </tr>
+        <tr>
+            <td><strong>Phone:</strong></td>
+            <td>{{ data['view_patinet'][0]['phone'] }}</td>
+        </tr>
+        <tr>
+            <td><strong>Email:</strong></td>
+            <td>{{ data['view_patinet'][0]['email'] }}</td>
+        </tr>
+    </table>
+
+</body>
+</html> -->
+
+
+
+
+{% include "doctor_header.html" %}
+
+<!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper">
+        <div class="container-full">
+            <!-- Main content -->
+            <section class="content">	
+                
+                <div class="col-xl-12 col-lg-12 col-12">
+                    <div class="box">
+                        <div class="box-header with-border d-flex justify-content-between align-items-center">
+                            <h4 class="box-title">Patient Profile</h4>
+                        </div>       
+                    </div>
+                </div>
+
+                <div class="row">
+                    
+                    
+                    <div class="col-xl-9 col-lg-9 col-12">
+                        <div class="box">
+                            <div class="box-header with-border d-flex justify-content-between align-items-center">
+                              <h4 class="box-title">{{ data['view_patinet'][0]['first_name'] }}</h4>
+                              
+                            </div>
+                            <div class="box-body">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <!-- <div>
+                                        Full Name : <p class="mt-0 mb-5 fw-600">{{ data['view_patinet'][0]['first_name'] }} {{ data['view_patinet'][0]['last_name'] }}</p>
+                                        House Name : <p class="mt-0 mb-5 fw-600">{{ data['view_patinet'][0]['house_name'] }}</p>								
+                                        Place : <p class="mt-0 mb-5 fw-600">{{ data['view_patinet'][0]['place'] }}</p>								
+                                        Phone : <p class="mt-0 mb-5 fw-600">{{ data['view_patinet'][0]['phone'] }}</p>								
+                                        Email : <p class="mt-0 mb-5 fw-600">{{ data['view_patinet'][0]['email'] }}</p>								
+                                    </div> -->
+
+                                    <div>
+                                        <table class="table no-border" style="width: 600px;">
+                                            <tr>
+                                                <th>Full Name :</th>
+                                                <td><input type="text" value="{{ data['view_patinet'][0]['first_name'] }} {{ data['view_patinet'][0]['last_name'] }}" disabled class="form-control" name="" id=""></td>
+                                            </tr>
+                                            <tr>
+                                                <th>House Name :</th>
+                                                <td><input type="text" value="{{ data['view_patinet'][0]['house_name'] }}" disabled class="form-control" name="" id=""></td>
+                                            </tr>
+                                            <tr>
+                                                <th>Place :</th>
+                                                <td><input type="text" value="{{ data['view_patinet'][0]['place'] }}" disabled class="form-control" name="" id=""></td>
+                                            </tr>
+                                            <tr>
+                                                <th>Phone :</th>
+                                                <td><input type="text" value="{{ data['view_patinet'][0]['phone'] }}" disabled class="form-control" name="" id=""></td>
+                                            </tr>
+                                            <tr>
+                                                <th>Email :</th>
+                                                <td><input type="text" value="{{ data['view_patinet'][0]['email'] }}" disabled class="form-control" name="" id=""></td>
+                                            </tr>
+                                                
+                                             
+                                        </table>
+                                    </div>
+                                    <!-- <div><i class="fa-solid fa-hospital-user fs-40 text-danger"></i></div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>				
+                 
+                </div>
+              
+              <!-- /.row -->
+            </section>
+            <!-- /.content -->
+        </div>
+    </div>
+<!-- /.content-wrapper -->
+
+
+{% include "doctor_footer.html" %}

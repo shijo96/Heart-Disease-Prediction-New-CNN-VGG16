@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="filter_options">
+        <item>Choose Filter</item>
+        <item>Top Rated</item>
+        <item>Near by Place</item>
+    </array>
+    <color name="black">#FF000000</color>
+    <color name="blue">#1976D2</color>
+    <color name="home">#EDBFBF</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Heart</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:statusBarColor">@color/home</item>
+        
+    </style>
+    <style name="Base.Theme.Heart" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.Heart" parent="Base.Theme.Heart"/>
+</resources>

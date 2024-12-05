@@ -1,0 +1,8 @@
+<!-- res/drawable/border_shine_animation.xml -->
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <!-- Shining Border State -->
+    <item android:drawable="@drawable/button" android:duration="1000" />
+    <!-- Normal Border State -->
+    <item android:drawable="@drawable/button" android:duration="1000" />
+</animation-list>

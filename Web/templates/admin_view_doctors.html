@@ -1,0 +1,141 @@
+{% include "admin_header.html" %}
+
+
+
+
+<style>
+  
+    /* Popup overlay */
+    .popup-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 999; /* Ensure it's on top */
+        visibility: hidden; /* Hidden by default */
+        opacity: 0; /* Start invisible */
+        transition: visibility 0s 2s, opacity 2s ease; /* Delay visibility for the fade-out effect */
+    }
+    .popup {
+        color: white; /* White text */
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        position: relative; /* Positioning for possible icons */
+    }
+    .success {
+        background-color: #4CAF50; /* Green background for success */
+    }
+    .danger {
+        background-color: #f44336; /* Red background for danger */
+    }
+    .show {
+        visibility: visible; /* Show the popup */
+        opacity: 1; /* Fully visible */
+        transition: opacity 0.5s ease; /* Smooth fade-in */
+    }
+</style>
+
+
+<div class="container my-5">
+    <h2 class="text-center mb-4">Doctors List</h2>
+    
+
+
+
+
+    {% with messages = get_flashed_messages() %}
+    {% if messages %}
+      <div id="popup-overlay" class="popup-overlay">
+        <div class="popup {{ messages[0][1] }}">
+          {{ messages[0][0] }}
+        </div>
+      </div>
+    {% endif %}
+  {% endwith %}
+
+
+    <!-- Doctors Table -->
+    <table class="table table-bordered table-striped">
+        <thead class="thead-dark">
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>House Name</th>
+                <th>Place</th>
+                <th>Landmark</th>
+                <th>Qualification</th>
+                <th>Phone</th>
+                <th>Email</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Example Row with "Pending" Status -->
+             {% for row in data['view_doc'] %}
+            <tr>
+                <td>{{ row['first_name'] }}</td>
+                <td>{{ row['last_name'] }}</td>
+                <td>{{ row['house_name'] }}</td>
+                <td>{{ row['place'] }}</td>
+                <td>{{ row['landmark'] }}</td>
+                <td>{{ row['qualification'] }}</td>
+                <td>{{ row['phone'] }}</td>
+                <td>{{ row['email'] }}</td>
+                
+                {% if row['status'] == "Pending" %}
+                <td>
+                    <span class="badge badge-warning">Pending</span>
+                    <div class="mt-2">
+                        <a href="?action=accept&id={{ row['doctor_id'] }}" class="btn btn-success btn-sm">Accept</a>
+                        <a href="?action=reject&id={{ row['doctor_id'] }}" class="btn btn-danger btn-sm">Reject</a>
+                    </div>
+                </td>
+                {% else %}
+                    <td><span {% if row['status'] == "Approved" %} class="badge badge-success" {% elif row['status'] == "Rejected" %} class="badge badge-danger" {% endif %}>{{ row['status'] }}</span></td>
+                {% endif %}
+            </tr>
+            {% endfor %}
+            
+            <!-- Example Row with "Approved" Status -->
+            <!-- <tr>
+                <td>Jane</td>
+                <td>Smith</td>
+                <td>Blue House</td>
+                <td>Los Angeles</td>
+                <td>Sunset Blvd</td>
+                <td>MBBS, MS</td>
+                <td>098-765-4321</td>
+                <td>jane.smith@example.com</td>
+                <td><span class="badge badge-success">Approved</span></td>
+            </tr>
+             -->
+            <!-- Additional rows can be added as needed -->
+        </tbody>
+    </table>
+</div>
+
+
+<script>
+    // Function to show the flash message popup
+    window.onload = function() {
+        const overlay = document.getElementById('popup-overlay');
+        if (overlay) {
+            overlay.classList.add('show'); // Show the popup
+            setTimeout(function() {
+                overlay.style.visibility = 'hidden'; // Hide the overlay after 2 seconds
+                overlay.style.opacity = '0'; // Fade out
+            }, 2000); // Wait for 2 seconds
+        }
+    };
+</script>
+
+{% include "admin_footer.html" %}
+
+

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="7dp"
+    android:gravity="center"
+    android:background="@drawable/c13">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rate and Review"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="16dp" />
+
+    <!-- Rating Bar -->
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize="0.5"
+        android:rating="0"
+        android:layout_gravity="center"
+        android:paddingBottom="16dp" />
+
+    <!-- Review EditText -->
+    <EditText
+        android:id="@+id/reviewEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Write your review here..."
+        android:background="@drawable/input_fld"
+        android:padding="10dp"
+        android:layout_margin="16dp"
+        android:inputType="textMultiLine"
+        android:minHeight="100dp"
+        android:gravity="top" />
+
+
+
+
+    <!-- Login Button -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/submitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_margin="16dp"
+        android:textColor="#fff"
+        android:background="@drawable/received"
+        android:layout_marginTop="24dp"/>
+
+
+</LinearLayout>
